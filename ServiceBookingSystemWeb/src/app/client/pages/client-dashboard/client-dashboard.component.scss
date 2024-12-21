@@ -1,0 +1,26 @@
+.child {
+    padding: 30px; /* Zwiększenie odstępów wewnętrznych */
+    width: 850px; /* Zwiększenie szerokości ogłoszenia */
+    background-color: white;
+    box-shadow: 1px 1px 20px -5px rgba(0, 0, 0, 0.1); /* Delikatniejsze cienie */
+    border-radius: 8px; /* Zaokrąglone rogi */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px; /* Odstępy między ogłoszeniami */
+}
+
+.row {
+    padding: 30px;
+    width: 850px;
+    background-color: white;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.bg {
+    background-color: #F8F8F8;
+    min-height: 91vh;
+    padding-top: 20px; /* Odstęp od góry */
+}

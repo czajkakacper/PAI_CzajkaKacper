@@ -1,0 +1,26 @@
+.child {
+    padding: 50px;
+    position: absolute;
+    width: 680px;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Poprawka na centrowanie */
+    background: white;
+    box-shadow: 1px 1px 15px -7px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-bottom: 22px;
+}
+
+.parent {
+    width: 100%;
+    min-height: 100vh; /* Dopasowanie do pełnej wysokości ekranu */
+    position: relative;
+    display: flex;
+    justify-content: center; /* Wyśrodkowanie poziome */
+    align-items: center; /* Wyśrodkowanie pionowe */
+    background-image: url('../../../basic/images/review.jpg'); /* Ścieżka do obrazu w tle */
+    background-size: cover; /* Dopasowanie obrazu do całego kontenera */
+    background-position: center; /* Wyśrodkowanie obrazu */
+    background-repeat: no-repeat; /* Zapobiega powtarzaniu obrazu */
+}
